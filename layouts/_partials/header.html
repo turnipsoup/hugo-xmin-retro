@@ -16,5 +16,11 @@
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
+
+    <ul class="buttons">
+      {{ range .Site.Params}}
+      <li style="list-style-type: none;">{{ . | $.RenderString }}</li>
+      {{ end }}
+    </ul>
     <hr/>
     </nav>

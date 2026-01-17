@@ -1,6 +1,6 @@
-name = "XMin"
+name = "XMin-retro"
 license = "MIT"
-licenselink = "https://github.com/yihui/hugo-xmin/blob/master/LICENSE.md"
+licenselink = "https://github.com/turnipsoup/hugo-xmin-retro/blob/master/LICENSE.md"
 description = "eXtremely Minimal Hugo theme: about 150 lines of code in total, including HTML and CSS"
 homepage = "https://xmin.yihui.org"
 demosite = "https://xmin.yihui.org"
@@ -9,5 +9,5 @@ features = ["blog"]
 min_version = "0.146.0"
 
 [author]
-  name = "Yihui Xie"
-  homepage = "https://yihui.org"
+  name = "Jeremy Heckt"
+  homepage = "https://jeremyheckt.com"
