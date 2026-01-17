@@ -1,4 +1,13 @@
-# HUGO XMIN
+# HUGO XMIN Retro
+
+Forked from [https://github.com/yihui/hugo-xmin](https://github.com/yihui/hugo-xmin)
+
+## CHANGES
+
+- In `hugo.toml` the `Params.buttons` area accepts a space-separated list of markdown image links for 88x31 buttons.
+
+---
+
 
 ## _Keep it simple, but not simpler_
 
