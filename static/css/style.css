@@ -3,6 +3,7 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
+  background: #e0ecf9;
 }
 
 /* header and footer areas */
@@ -10,7 +11,7 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  background: #c2cad3;
   padding: 5px;
   border-radius: 5px;
 }
