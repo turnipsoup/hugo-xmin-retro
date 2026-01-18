@@ -29,7 +29,13 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
+code { 
+  background: #f9f9f9; 
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 pre code { background: none; }
 
 /* misc elements */
