@@ -4,7 +4,7 @@ Forked from [https://github.com/yihui/hugo-xmin](https://github.com/yihui/hugo-x
 
 ## CHANGES
 
-- In `hugo.toml` the `Params.buttons` area accepts a space-separated list of markdown image links for 88x31 buttons.
+- In `hugo.toml` the `Params.buttons` area accepts either aspace-separated string (or new-line separated multi-line string) of markdown image links for 88x31 buttons.
 
 ---
 

@@ -41,6 +41,15 @@ pre code { background: none; }
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
+
+.image_subtitle {
+  margin: auto;
+  color: dimgray;
+  text-align: center;
+  font-style: italic;
+  font-size: 90%;
+}
+
 main { hyphens: auto; }
 blockquote {
   background: #f9f9f9;
