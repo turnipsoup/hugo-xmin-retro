@@ -19,8 +19,20 @@ body {
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
-  color: #c2cad3;
+  border-style: 2px double;
+  color: #636E75;
+  overflow: visible;
+  text-align: center;
+  height: 3px;
+  border: none;
+  padding: 0 0 40px 0;
+}
+
+hr::after {
+  content: "⛰";
+  padding: 0 4px;
+  font-size: 32px;
+  position: relative;
 }
 
 /* code */
