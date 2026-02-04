@@ -18,8 +18,19 @@ body {
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
+
+hr.top-hr {
+  border-top: 2px dashed #636E75;
+  content: none !important;
+  padding: 0 0 20px 0 !important;
+}
+
+hr.top-hr::after {
+  content: none !important;
+  padding: 0 0 2px 0 !important;
+}
+
 hr {
-  border-style: 2px double;
   color: #636E75;
   overflow: visible;
   text-align: center;
@@ -34,6 +45,8 @@ hr::after {
   font-size: 32px;
   position: relative;
 }
+
+
 
 /* code */
 pre {
